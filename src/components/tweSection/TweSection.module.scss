@@ -1,0 +1,92 @@
+$colorText: rgba(48, 42, 62, 0.6);
+$colorTextHover: #302a3e;
+$colorTextBlue: #2188f6;
+
+.guide {
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    width: 100%;
+    padding: 23px 158px;
+  }
+  &__info {
+    max-width: 528px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  &__imge {
+    width: 100%;
+  }
+}
+
+.info {
+  &__spam {
+    position: relative;
+  }
+  &__spam_img {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+  }
+  &__h3 {
+    color: $colorTextHover;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  &__h2 {
+    color: $colorTextHover;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+  }
+  &__p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    font-family: "Nunito", sans-serif;
+    padding-right: 80px;
+  }
+  &__btn {
+    margin-top: 32px;
+    width: 315px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    padding: 16px 27px;
+    border-radius: 160px;
+    border: #302a3e;
+    background: #302a3e;
+  }
+  &__box_btn {
+    display: flex;
+    gap: 16px;
+  }
+  &__btn_vk {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 32px;
+    border-radius: 160px;
+    background: $colorTextBlue;
+    border: transparent;
+  }
+  &__btn_enter {
+    height: 68px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 21px;
+    background-color: transparent;
+    border-radius: 160px;
+    border: 2px solid $colorTextHover;
+  }
+}

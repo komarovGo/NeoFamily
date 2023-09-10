@@ -1,0 +1,55 @@
+$colorText: rgba(48, 42, 62, 0.6);
+$colorTextHover: #302a3e;
+
+.header {
+  margin: 32px 0px;
+  &__block {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 56px;
+  }
+  &__p {
+    cursor: pointer;
+    color: $colorText;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    transition: 0.5s;
+    &:hover {
+      color: $colorTextHover;
+    }
+  }
+  &__box_btn {
+    position: relative;
+  }
+  &__img_reg {
+    position: absolute;
+    bottom: -120px;
+    right: 48px;
+  }
+  &__img_vec {
+    position: absolute;
+    bottom: -95px;
+    right: 80px;
+  }
+  &__btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: transparent;
+    width: 201px;
+    height: 51px;
+    border-radius: 160px;
+    border: 2px solid $colorTextHover;
+  }
+  &__btn_p {
+    color: $colorTextHover;
+  }
+}

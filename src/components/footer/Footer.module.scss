@@ -1,0 +1,139 @@
+$colorText: rgba(48, 42, 62, 0.6);
+$colorTextHover: #302a3e;
+$colorTextBlue: #2188f6;
+
+.footer {
+  max-width: 1510px;
+  margin: auto;
+  background-color: #ffff;
+  border-radius: 64px 64px 0px 0px;
+  padding: 48px;
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+  &__mid {
+    display: flex;
+    padding: 48px 0px;
+    border-top: 1px solid #efedf2;
+    border-bottom: 1px solid #efedf2;
+  }
+  &__mid_left {
+    width: 50%;
+    padding-right: 96px;
+  }
+  &__mid_centr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__mid_right {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+  &__bottom {
+    margin-top: 48px;
+    display: flex;
+    gap: 16px;
+  }
+
+  &__title {
+    color: $colorTextHover;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  &__p {
+    color: $colorText;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}
+
+.top {
+  &__nav {
+    display: flex;
+    gap: 16px;
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 136px;
+    height: 56px;
+    border-radius: 160px;
+    background-color: transparent;
+    border: 2px solid $colorTextHover;
+  }
+}
+
+.mid {
+  &__connection {
+    display: flex;
+    gap: 32px;
+  }
+  &__phone {
+    margin: 16px 0px;
+    color: $colorTextBlue;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.32px;
+  }
+  &__addressp {
+    color: $colorTextHover;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 56px;
+  }
+  &__diplom {
+    display: flex;
+    gap: 56px;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__offer {
+    display: flex;
+    gap: 56px;
+  }
+  &__offer_box {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+  }
+  &__offer_p {
+    color: $colorTextBlue;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration-line: underline;
+  }
+  &__projects {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.bottom {
+  &__p {
+    color: $colorTextHover;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}

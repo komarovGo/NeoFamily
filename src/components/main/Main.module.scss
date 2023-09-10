@@ -1,0 +1,166 @@
+$colorText: rgba(48, 42, 62, 0.6);
+$colorTextHover: #302a3e;
+$colorTextBlue: #2188f6;
+
+.main {
+  padding: 56px 16px 96px;
+  &__content {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
+    gap: 32px;
+  }
+  &__registration {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
+    gap: 32px;
+  }
+}
+
+.title {
+  &__box_h1 {
+    position: relative;
+  }
+  &__spam_try {
+    position: absolute;
+    right: 40px;
+    top: -70px;
+  }
+  &__spam_line {
+    position: absolute;
+    left: -140px;
+    top: -50px;
+  }
+  &__h1 {
+    color: $colorTextHover;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 32px;
+  }
+  &__h3 {
+    position: relative;
+    color: $colorText;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.36px;
+    margin-bottom: 48px;
+    font-family: "Nunito", sans-serif;
+  }
+  &__img_plus {
+    position: absolute;
+    right: 40px;
+    bottom: -15px;
+  }
+  &__box_btn {
+    display: flex;
+    gap: 16px;
+  }
+  &__btn_vk {
+    color: white;
+    gap: 8px;
+    width: 258px;
+    height: 64px;
+    border-radius: 160px;
+    background-color: $colorTextBlue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    transition: 0.5s;
+    &:hover {
+      background-color: #2148f6;
+    }
+  }
+  &__btn_enter {
+    color: $colorTextHover;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 160px;
+    border: 2px solid $colorTextHover;
+    background-color: transparent;
+    width: 168px;
+    height: 64px;
+  }
+}
+
+.registration {
+  &__form {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 340px;
+    height: 438px;
+    border-radius: 32px;
+    border: 2px solid $colorTextHover;
+  }
+  &__h2 {
+    color: $colorTextHover;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  &__input {
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid $colorText;
+    background: #fff;
+    width: 292px;
+    height: 48px;
+    &::placeholder {
+      color: $colorTextHover;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 18px;
+    }
+  }
+  &__btn {
+    border: transparent;
+    color: #fff;
+    width: 292px;
+    height: 56px;
+    border-radius: 160px;
+    background: #302a3e;
+  }
+  &__p {
+    color: $colorText;
+    padding: 0px 25px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Nunito", sans-serif;
+  }
+  &__input_eye {
+    position: relative;
+  }
+  &__input_svg {
+    cursor: pointer;
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.span {
+  cursor: pointer;
+  color: $colorText;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.2px;
+  text-decoration-line: underline;
+  font-family: "Nunito", sans-serif;
+}
