@@ -3,7 +3,8 @@ $colorTextHover: #302a3e;
 $colorTextBlue: #2188f6;
 
 .main {
-  padding: 56px 16px 96px;
+  margin: 56px 0px 96px 0px;
+  padding: 0px 32px;
   &__content {
     align-items: center;
     display: grid;
@@ -34,6 +35,7 @@ $colorTextBlue: #2188f6;
     left: -140px;
     top: -50px;
   }
+
   &__h1 {
     color: $colorTextHover;
     font-size: 56px;
@@ -154,7 +156,7 @@ $colorTextBlue: #2188f6;
   }
 }
 
-.span {
+.a {
   cursor: pointer;
   color: $colorText;
   font-size: 10px;
@@ -163,4 +165,14 @@ $colorTextBlue: #2188f6;
   letter-spacing: 0.2px;
   text-decoration-line: underline;
   font-family: "Nunito", sans-serif;
+  &:hover{
+    text-decoration-line: none;
+  }
+}
+@media screen and (max-width: 1740px) {
+  .title__spam_line {
+    position: absolute;
+    left: 0px;
+    top: -90px;
+  }
 }

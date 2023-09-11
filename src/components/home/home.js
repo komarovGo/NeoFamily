@@ -1,12 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
 
 import styles from "@/components/home/styles/Home.module.scss";
-import Header from "@/components/header/headre";
+import Header from "@/components/header/header";
 import Main from "@/components/main/main";
 import Footer from "@/components/footer/footer";
-import OneSection from "@/components/oneSection/oneSection";
-import TweSection from "@/components/tweSection/tweSection";
+import BankTask from "@/components/BankTask/BankTask";
+import InfoBlock from "@/components/InfoBlock/InfoBlock";
 
 function Home() {
   return (
@@ -21,8 +20,8 @@ function Home() {
         <Header />
         <main>
           <Main />
-          <OneSection />
-          <TweSection />
+          <BankTask />
+          <InfoBlock />
         </main>
         <Footer />
       </div>

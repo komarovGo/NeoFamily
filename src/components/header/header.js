@@ -21,10 +21,18 @@ function header() {
           <div className={styles.header__logo}>
             <Image className={styles.logo_imge} src={logo} />
           </div>
-          <p className={styles.header__p}>Предметы</p>
-          <p className={styles.header__p}>Теория</p>
-          <p className={styles.header__p}>Повторение</p>
-          <p className={styles.header__p}>Тесты</p>
+          <a href="#" className={styles.header__p}>
+            Предметы
+          </a>
+          <a href="#" className={styles.header__p}>
+            Теория
+          </a>
+          <a href="#" className={styles.header__p}>
+            Повторение
+          </a>
+          <a href="#" className={styles.header__p}>
+            Тесты
+          </a>
         </nav>
         <div className={styles.header__box_btn}>
           <animated.div style={springs}>

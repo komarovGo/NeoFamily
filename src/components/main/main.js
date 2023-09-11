@@ -74,15 +74,13 @@ function Main() {
             </button>
             <p className={styles.registration__p}>
               Нажимая «Зарегистрироваться», вы выражаете
-              <span className={styles.span}>
-                согласие на обработку персональных данных,
-              </span>
-              а также подтверждаете ознакомление и согласие с условиями
-              <span className={styles.span}> Оферты</span> и
-              <span className={styles.span}>
-                Политики <br />
+              <a href="#" className={styles.a}> согласие на обработку персональных данных,
+              </a>
+              а также подтверждаете ознакомление aи согласие с условиями
+              <a href="#"  className={styles.a}> Оферты 
+              </a> и <a href="#" className={styles.a}> Политики <br />
                 конфиденциальности.
-              </span>
+              </a>
             </p>
           </form>
           <div className={styles.registration__img}>
