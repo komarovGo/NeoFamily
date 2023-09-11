@@ -2,8 +2,8 @@ $colorText: rgba(48, 42, 62, 0.6);
 $colorTextHover: #302a3e;
 
 .header {
-  margin: 32px 0px;
   &__block {
+    padding: 32px;
     display: flex;
     justify-content: space-between;
   }

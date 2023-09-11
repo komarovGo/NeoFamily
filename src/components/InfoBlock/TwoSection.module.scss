@@ -8,7 +8,8 @@ $colorTextBlue: #2188f6;
     align-items: center;
     gap: 64px;
     width: 100%;
-    padding: 23px 158px;
+    margin: 23px 0px;
+    padding: 0px 158px;
   }
   &__info {
     max-width: 528px;
@@ -18,6 +19,10 @@ $colorTextBlue: #2188f6;
   }
   &__imge {
     width: 100%;
+    height: 100%;
+  }
+  &__big_img{
+
   }
 }
 

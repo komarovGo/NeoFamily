@@ -1,11 +1,11 @@
 import Image from "next/image";
-import styles from "@/components/oneSection/OneSection.module.scss";
+import styles from "@/components/BankTask/BankTask.module.scss";
 import go from "@/img/icon/go.svg";
 import arrow from "@/img/icon/arrow.svg";
 
 import { useSpring, animated } from "@react-spring/web";
 
-function oneSection() {
+function BankTask() {
   const springs = useSpring({
     config: { duration: 2000 },
     from: { transform: "rotate(0deg)" },
@@ -131,4 +131,4 @@ function oneSection() {
   );
 }
 
-export default oneSection;
+export default BankTask;

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import styles from "@/components/tweSection/TweSection.module.scss";
-import content from "@/img/content.png";
+import styles from "@/components/InfoBlock/TwoSection.module.scss";
+import content from "@/img/content.jpg";
 import smart from "@/img/smart.png";
 import task from "@/img/task.png";
 import form from "@/img/form.png";
@@ -8,7 +8,7 @@ import spam from "@/img/spam.png";
 
 import BtnVK from "../button/Button";
 
-function TweSection() {
+function InfoBlock() {
   return (
     <section className={styles.bank}>
       <div className={styles.guide__content}>
@@ -83,4 +83,4 @@ function TweSection() {
   );
 }
 
-export default TweSection;
+export default InfoBlock;

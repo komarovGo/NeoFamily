@@ -46,11 +46,14 @@ $colorTextBlue: #2188f6;
     font-weight: 700;
     line-height: 24px;
   }
-  &__p {
+  &__a {
     color: $colorText;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
+    &:hover{
+       text-decoration:underline;
+    }
   }
 }
 
@@ -114,12 +117,15 @@ $colorTextBlue: #2188f6;
     flex-direction: column;
     gap: 34px;
   }
-  &__offer_p {
+  &__offer_a {
     color: $colorTextBlue;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
     text-decoration-line: underline;
+    &:hover{
+       text-decoration:none;
+    }
   }
   &__projects {
     display: flex;

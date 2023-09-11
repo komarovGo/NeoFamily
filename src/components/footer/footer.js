@@ -64,19 +64,31 @@ function footer() {
                 >
                   NeoFamily - умная подготовка к ЕГЭ
                 </h3>
-                <p className={styles.footer__p}>Предметы</p>
-                <p className={styles.footer__p}>Теория</p>
-                <p className={styles.footer__p}>Повторение</p>
-                <p className={styles.footer__p}>Тесты</p>
+                <a href="#" className={styles.footer__a}>
+                  Предметы
+                </a>
+                <a href="#" className={styles.footer__a}>
+                  Теория
+                </a>
+                <a href="#" className={styles.footer__a}>
+                  Повторение
+                </a>
+                <a href="#" className={styles.footer__a}>
+                  Тесты
+                </a>
               </div>
               <div className={styles.mid__offer_box}>
                 <div className={styles.mid__offer}>
-                  <p className={styles.mid__offer_p}>Правовая информация</p>
-                  <p className={styles.mid__offer_p}>Оферта</p>
+                  <a href="#" className={styles.mid__offer_a}>
+                    Правовая информация
+                  </a>
+                  <a href="#" className={styles.mid__offer_a}>
+                    Оферта
+                  </a>
                 </div>
-                <p className={styles.mid__offer_p}>
+                <a href="#" className={styles.mid__offer_a}>
                   Пользовательское соглашение
-                </p>
+                </a>
               </div>
             </div>
             <div className={styles.mid__projects}>
@@ -86,7 +98,9 @@ function footer() {
               >
                 Проекты
               </h3>
-              <p className={styles.footer__p}>NeoFamily</p>
+              <a href="#" className={styles.footer__a}>
+                NeoFamily
+              </a>
             </div>
           </div>
         </div>
