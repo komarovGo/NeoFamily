@@ -8,8 +8,7 @@ $colorTextBlue: #2188f6;
     align-items: center;
     gap: 64px;
     width: 100%;
-    margin: 23px 0px;
-    padding: 0px 158px;
+    padding: 23px 158px;
   }
   &__info {
     max-width: 528px;
@@ -18,11 +17,9 @@ $colorTextBlue: #2188f6;
     gap: 24px;
   }
   &__imge {
+    border-radius: 16px;
     width: 100%;
     height: 100%;
-  }
-  &__big_img{
-
   }
 }
 
@@ -53,7 +50,7 @@ $colorTextBlue: #2188f6;
     line-height: 24px;
     letter-spacing: 0.32px;
     font-family: "Nunito", sans-serif;
-    padding-right: 80px;
+    padding-right: 83px;
   }
   &__btn {
     margin-top: 32px;
@@ -95,3 +92,4 @@ $colorTextBlue: #2188f6;
     border: 2px solid $colorTextHover;
   }
 }
+

@@ -5,7 +5,7 @@ import spam from "@/img/try.png";
 import line from "@/img/icon/line.svg";
 import BigPlus from "@/img/icon/BigPlus.svg";
 import eye from "@/img/icon/eye.svg";
-import BtnVK from "@/components/button/Button";
+import BtnVK from "@/components/button/ButtonVK";
 
 import { useSpring, animated } from "@react-spring/web";
 
@@ -74,17 +74,25 @@ function Main() {
             </button>
             <p className={styles.registration__p}>
               Нажимая «Зарегистрироваться», вы выражаете
-              <a href="#" className={styles.a}> согласие на обработку персональных данных,
+              <a href="#" className={styles.a}>
+                {" "}
+                согласие на обработку персональных данных,
               </a>
               а также подтверждаете ознакомление aи согласие с условиями
-              <a href="#"  className={styles.a}> Оферты 
-              </a> и <a href="#" className={styles.a}> Политики <br />
+              <a href="#" className={styles.a}>
+                {" "}
+                Оферты
+              </a>{" "}
+              и{" "}
+              <a href="#" className={styles.a}>
+                {" "}
+                Политики <br />
                 конфиденциальности.
               </a>
             </p>
           </form>
-          <div className={styles.registration__img}>
-            <Image src={image} />
+          <div className={styles.registration__block_img}>
+            <Image className={styles.registration__img} src={image} />
           </div>
         </div>
       </div>
