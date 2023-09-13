@@ -1,12 +1,12 @@
 import Image from "next/image";
-import styles from "@/components/InfoBlock/TwoSection.module.scss";
+import styles from "@/components/InfoBlock/InfoBlock.module.scss";
 import content from "@/img/content.jpg";
 import smart from "@/img/smart.png";
 import task from "@/img/task.png";
 import form from "@/img/form.png";
 import spam from "@/img/spam.png";
 
-import BtnVK from "../button/Button";
+import BtnVK from "../button/ButtonVK";
 
 function InfoBlock() {
   return (
