@@ -1,13 +1,12 @@
 $colorTextBlue: #2188f6;
-
+$colorTextHover: #302a3e;
 .btn_vk {
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   color: white;
   gap: 8px;
-  width: 259px;
-  height: 64px;
+  padding: 22px 32px;
   border-radius: 160px;
   background-color: $colorTextBlue;
   display: flex;
@@ -18,4 +17,25 @@ $colorTextBlue: #2188f6;
   &:hover {
     background-color: #2148f6;
   }
+}
+.btn_enter {
+  border: transparent;
+  color: #fff;
+  width: 292px;
+  height: 56px;
+  border-radius: 160px;
+  background: #302a3e;
+}
+.btn_clas {
+  color: $colorTextHover;
+  padding: 22px 32px;
+  font-size: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border: 2px solid #302a3e;
+  background-color: transparent;
+  border-radius: 160px;
+  border: 2px solid #302a3e;
 }
