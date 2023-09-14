@@ -24,7 +24,7 @@ function InfoBlock() {
           <BtnEnter props="Зарегистрироваться бесплатно" />
         </div>
         <div className={styles.guide__big_img}>
-          <Image className={styles.guide__imge} src={content} />
+          <Image style={{borderRadius: "16px"}} className={styles.guide__imge} src={content} />
         </div>
       </div>
       <div className={styles.guide__content}>
