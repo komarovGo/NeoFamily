@@ -5,7 +5,10 @@ import spam from "@/img/try.png";
 import line from "@/img/icon/line.svg";
 import BigPlus from "@/img/icon/BigPlus.svg";
 import eye from "@/img/icon/eye.svg";
+
 import BtnVK from "@/components/button/ButtonVK";
+import BtnEnter from "@/components/button/ButtonEnter"
+import BtnClas from "@/components/button/BtnClas";
 
 import { useSpring, animated } from "@react-spring/web";
 
@@ -40,7 +43,7 @@ function Main() {
           </h3>
           <div className={styles.title__box_btn}>
             <BtnVK />
-            <button className={styles.title__btn_enter}>Войти</button>
+            <BtnClas name="Войти"/>
           </div>
         </div>
         <div className={styles.main__registration}>
@@ -69,9 +72,7 @@ function Main() {
                 className={styles.registration__input}
               />
             </div>
-            <button className={styles.registration__btn}>
-              Зарегистрироваться
-            </button>
+            <BtnEnter props="Зарегистрироваться" />
             <p className={styles.registration__p}>
               Нажимая «Зарегистрироваться», вы выражаете
               <a href="#" className={styles.a}>

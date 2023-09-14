@@ -7,6 +7,9 @@ import form from "@/img/form.png";
 import spam from "@/img/spam.png";
 
 import BtnVK from "../button/ButtonVK";
+import BtnEnter from "@/components/button/ButtonEnter";
+import BtnClas from "@/components/button/BtnClas";
+
 
 function InfoBlock() {
   return (
@@ -18,9 +21,7 @@ function InfoBlock() {
             Вся нужная теория по темам ЕГЭ — на понятном языке и с дизайнерскими
             иллюстрациями. Идеально, чтобы создать фундамент знаний по предмету.
           </p>
-          <button className={styles.info__btn}>
-            Зарегистрироваться бесплатно
-          </button>
+          <BtnEnter props="Зарегистрироваться бесплатно" />
         </div>
         <div className={styles.guide__big_img}>
           <Image className={styles.guide__imge} src={content} />
@@ -28,7 +29,10 @@ function InfoBlock() {
       </div>
       <div className={styles.guide__content}>
         <div className={styles.guide__big_img}>
-          <Image className={styles.guide__imge} src={smart} />
+          <Image
+            className={styles.guide__imge}
+            src={smart}
+          />
         </div>
         <div className={styles.guide__info}>
           <h3 className={styles.info__h3}>Умное повторение</h3>
@@ -37,9 +41,7 @@ function InfoBlock() {
             миллиарды терминов/правил без особых усилий. Основана на новейших
             исследованиях памяти.
           </p>
-          <button className={styles.info__btn}>
-            Зарегистрироваться бесплатно
-          </button>
+          <BtnEnter props="Зарегистрироваться бесплатно" />
         </div>
       </div>
       <div className={styles.guide__content}>
@@ -50,9 +52,7 @@ function InfoBlock() {
             любые сценарии создания вариантов как лично учеником, так и
             преподавателем. Наш интерфейс безумно удобен и дружелюбен.
           </p>
-          <button className={styles.info__btn}>
-            Зарегистрироваться бесплатно
-          </button>
+          <BtnEnter props="Зарегистрироваться бесплатно" />
         </div>
         <div className={styles.guide__big_img}>
           <Image className={styles.guide__imge} src={task} />
@@ -72,7 +72,7 @@ function InfoBlock() {
           </p>
           <div className={styles.info__box_btn}>
             <BtnVK />
-            <button className={styles.info__btn_enter}>Войти</button>
+            <BtnClas name="Войти" />
           </div>
         </div>
         <div className={styles.guide__big_img}>

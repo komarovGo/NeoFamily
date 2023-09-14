@@ -11,6 +11,8 @@ import youtube from "@/img/icon/youtube.svg";
 import vk from "@/img/icon/vk.svg";
 import telegram from "@/img/icon/telegram.svg";
 
+import BtnClas from "@/components/button/BtnClas";
+
 function footer() {
   return (
     <footer className={styles.footer}>
